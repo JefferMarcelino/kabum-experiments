@@ -17,6 +17,32 @@ This repository contains code and data related to various experiments with [Kabu
 
 To get started with this project, you need to have the [unofficial-kabum-digital-api](https://github.com/JefferMarcelino/unofficial-kabum-digital-api) running on your local machine. Make sure you have the necessary dependencies installed as specified in the `requirements.txt` file.
 
+### Virtual Environment
+
+In order to not mess with our normal environment, it's a practice to create a virtual environment which is isolated from others python libs.
+
+1. Install virtualenv
+```shell
+pip install virtualenv
+```
+2. usage: python<version> -m venv <virtualenv-environment-name>
+  Example:
+```shell
+python3 -m venv kabum-experiments-env
+```
+3. Activate the venv:
+```shell
+source <virtualenv-environment-name>/bin/activate
+```
+4. Deactivate the venv:
+```shell
+deactivate
+```
+
+### Install dependencies in the venv
+  pip install -r requirements.txt
+
+### Key Usage Instructions
 Here are some key usage instructions:
 
 1. Use `index.py` to generate all the necessary data (JSON files).
