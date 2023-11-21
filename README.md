@@ -25,7 +25,10 @@ In order to not mess with our normal environment, it's a practice to create a vi
 ```shell
 pip install virtualenv
 ```
-2. usage: python<version> -m venv <virtualenv-environment-name>
+2. usage:
+```shell
+python<version> -m venv <virtualenv-environment-name>
+```
 Example:
 ```shell
 python3 -m venv kabum-experiments-env
