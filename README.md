@@ -26,7 +26,7 @@ In order to not mess with our normal environment, it's a practice to create a vi
 pip install virtualenv
 ```
 2. usage: python<version> -m venv <virtualenv-environment-name>
-  Example:
+Example:
 ```shell
 python3 -m venv kabum-experiments-env
 ```
@@ -39,8 +39,10 @@ source <virtualenv-environment-name>/bin/activate
 deactivate
 ```
 
-### Install dependencies in the venv
-  pip install -r requirements.txt
+### Install dependencies
+```shell
+pip install -r requirements.txt
+```
 
 ### Key Usage Instructions
 Here are some key usage instructions:
